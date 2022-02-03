@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtWord" HorizontalAlignment="Left" Margin="52,38,0,0" Text="Enter Word" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtWord" HorizontalAlignment="Left" Margin="52,38,0,0" Text="Enter Word" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" UndoLimit="120"/>
         <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Left" Margin="52,83,0,0" VerticalAlignment="Top" Click="btnEnter_Click"/>
         <ListBox x:Name="lstVowles" Margin="194,33,400,316"/>
         <ListBox x:Name="lstCon" Margin="194,154,400,195"/>

@@ -1,0 +1,22 @@
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\SalesJan2009.csv
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\Reading in File.exe
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\Reading in File.deps.json
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\Reading in File.runtimeconfig.json
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\Reading in File.dll
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\ref\Reading in File.dll
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\bin\Debug\net6.0-windows\Reading in File.pdb
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.csproj.AssemblyReference.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File_MarkupCompile.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File_MarkupCompile.lref
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.g.resources
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.AssemblyInfoInputs.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.AssemblyInfo.cs
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.csproj.CoreCompileInputs.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.dll
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\ref\Reading in File.dll
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.pdb
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Reading in File\Reading in File\obj\Debug\net6.0-windows\Reading in File.genruntimeconfig.cache

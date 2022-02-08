@@ -35,18 +35,26 @@ namespace Vowles_and_Consonants
             for (int i = 0; i < answer.Length; i++)
             {
                 char letter = answer[i];
+                if (char.IsLetter(letter) == true)
+                {
+                    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                    {
+                        lstVowles.Items.Add(letter);
+                    }
+                    else
+                    {
+                        lstCon.Items.Add(letter);
+                    }
 
-                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
-                {
-                    lstVowles.Items.Add(letter);
-                }
-                else
-                {
-                    lstCon.Items.Add(letter);
                 }
             }
 
             txtWord.Clear();
+        }
+
+        private void lstVowles_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1185e762-d9fb-40fd-9df1-d5713593733f": {
+      "ProjectGuid": "1185e762-d9fb-40fd-9df1-d5713593733f",
+      "DisplayName": "JSON From A File",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

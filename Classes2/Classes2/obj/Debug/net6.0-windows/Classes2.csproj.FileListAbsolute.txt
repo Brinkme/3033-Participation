@@ -18,3 +18,6 @@ C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\Debug\net6.0-windows\ref\Classes2.dll
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\Debug\net6.0-windows\Classes2.pdb
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\Debug\net6.0-windows\Classes2.genruntimeconfig.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\Debug\net6.0-windows\Classes2.csproj.AssemblyReference.cache
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Classes2\Classes2\obj\Debug\net6.0-windows\Classes2.csproj.CopyComplete

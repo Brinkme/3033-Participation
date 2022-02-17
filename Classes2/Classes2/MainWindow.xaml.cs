@@ -34,7 +34,7 @@ namespace Classes2
             Toy thing = new Toy();
             if (string.IsNullOrWhiteSpace(txtBoxMan.Text) == false)
             {
-            thing.Manufactuer = txtBoxMan.Text;
+                thing.Manufactuer = txtBoxMan.Text;
             }
             else
             {
@@ -43,7 +43,7 @@ namespace Classes2
             }
             if (string.IsNullOrWhiteSpace(txtBoxName.Text) == false)
             {
-            thing.Name = txtBoxName.Text;
+                thing.Name = txtBoxName.Text;
             }
             else
             {
@@ -62,7 +62,7 @@ namespace Classes2
             }
             if (string.IsNullOrWhiteSpace(txtBoxURL.Text) == false)
             {
-            thing.Image = txtBoxURL.Text;
+                thing.Image = txtBoxURL.Text;
             }
             else
             {
@@ -76,6 +76,8 @@ namespace Classes2
         private void lstBoxAdd_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Toy selectedToy = (Toy)lstBoxAdd.SelectedItem;
+
+            
 
             //MessageBox.Show();
         }

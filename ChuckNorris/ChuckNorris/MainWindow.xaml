@@ -8,8 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="lstBoxJoke">
         <Button x:Name="btnClick" Content="Click For Joke" HorizontalAlignment="Left" Margin="329,92,0,0" VerticalAlignment="Top" Click="btnClick_Click"/>
-        <ListBox x:Name="lstBoxJoke1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="30,177,490,54" MouseDoubleClick="lstBoxJoke1_MouseDoubleClick"/>
-        <Image x:Name="imgChuck" HorizontalAlignment="Left" Height="145" Margin="466,193,0,0" VerticalAlignment="Top" Width="179"/>
+        <ListBox x:Name="lstBoxJoke1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,177,10,54" MouseDoubleClick="lstBoxJoke1_MouseDoubleClick"/>
         <ComboBox x:Name="cmbBoxCat" HorizontalAlignment="Left" Margin="30,80,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>

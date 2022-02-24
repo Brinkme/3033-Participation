@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "def0f595-dd51-47c4-8ace-fccc4a60ea8a": {
+      "ProjectGuid": "def0f595-dd51-47c4-8ace-fccc4a60ea8a",
+      "DisplayName": "ChuckNorris",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

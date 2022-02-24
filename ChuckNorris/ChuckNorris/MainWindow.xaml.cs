@@ -28,11 +28,8 @@ namespace ChuckNorris
 
             cmbBoxCat.Items.Add("All");
             cmbBoxCat.SelectedIndex = 0;
-        }
 
-        private void btnClick_Click(object sender, RoutedEventArgs e)
-        {
-            string URL = "https://api.chucknorris.io/jokes/random";
+            string URL = $"https://api.chucknorris.io/jokes/categories";
 
             string json;
 
@@ -40,19 +37,52 @@ namespace ChuckNorris
             {
                 json = client.GetStringAsync(URL).Result;
 
-                Chuck api = JsonConvert.DeserializeObject<Chuck>(json);
+                var api = JsonConvert.DeserializeObject<List<string>>(json);
 
-                lstBoxJoke1.Items.Add(api.value);
+                foreach (var item in api)
+                {
+                    cmbBoxCat.Items.Add(item);
+                }
+
+                //lstBoxJoke1.Items.Add(api.value);
             }
         }
 
-        private void lstBoxJoke1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void btnClick_Click(object sender, RoutedEventArgs e)
         {
-            //lstBoxJoke1.SelectedItem = thing;
+            lstBoxJoke1.Items.Clear();
 
-            Chuck selected = (Chuck)lstBoxJoke1.SelectedItem;
+            if (cmbBoxCat.SelectedIndex == 0)
+            {
+                string URL = "https://api.chucknorris.io/jokes/random";
+                string json;
 
-            imgChuck.Source = new BitmapImage(new Uri(selected.icon_url));
+                using (var client = new HttpClient())
+                {
+                    json = client.GetStringAsync(URL).Result;
+
+                    Chuck api1 = JsonConvert.DeserializeObject<Chuck>(json);
+
+                    lstBoxJoke1.Items.Add(api1.value);
+                }
+
+            }
+            else
+            {
+                string url = $"https://api.chucknorris.io/jokes/random?category={cmbBoxCat.SelectedItem}";
+                string JSON;
+
+                using (var client = new HttpClient())
+                {
+                    JSON = client.GetStringAsync(url).Result;
+
+                    Chuck api2 = JsonConvert.DeserializeObject<Chuck>(JSON);
+
+                    lstBoxJoke1.Items.Add(api2.value);
+                }
+
+            }
+
         }
     }
 }

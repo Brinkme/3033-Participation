@@ -50,8 +50,6 @@ namespace ChuckNorris
 
         private void btnClick_Click(object sender, RoutedEventArgs e)
         {
-            lstBoxJoke1.Items.Clear();
-
             if (cmbBoxCat.SelectedIndex == 0)
             {
                 string URL = "https://api.chucknorris.io/jokes/random";
@@ -62,8 +60,7 @@ namespace ChuckNorris
                     json = client.GetStringAsync(URL).Result;
 
                     Chuck api1 = JsonConvert.DeserializeObject<Chuck>(json);
-
-                    lstBoxJoke1.Items.Add(api1.value);
+                    MessageBox.Show(api1.value);
                 }
 
             }
@@ -78,7 +75,7 @@ namespace ChuckNorris
 
                     Chuck api2 = JsonConvert.DeserializeObject<Chuck>(JSON);
 
-                    lstBoxJoke1.Items.Add(api2.value);
+                    MessageBox.Show(api2.value);
                 }
 
             }

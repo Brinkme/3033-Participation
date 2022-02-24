@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="lstBoxJoke">
+        <Grid.Background>
+            <ImageBrush ImageSource="/fcd7a380-eab6-4467-891e-be2ea75fe52b-large16x9_ChuckNorris.jpg"/>
+        </Grid.Background>
         <Button x:Name="btnClick" Content="Click For Joke" HorizontalAlignment="Left" Margin="329,92,0,0" VerticalAlignment="Top" Click="btnClick_Click"/>
-        <ListBox x:Name="lstBoxJoke1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,177,10,54" MouseDoubleClick="lstBoxJoke1_MouseDoubleClick"/>
         <ComboBox x:Name="cmbBoxCat" HorizontalAlignment="Left" Margin="30,80,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>

@@ -43,8 +43,6 @@ namespace ChuckNorris
                 {
                     cmbBoxCat.Items.Add(item);
                 }
-
-                //lstBoxJoke1.Items.Add(api.value);
             }
         }
 

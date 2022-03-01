@@ -1,0 +1,21 @@
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\Test2 Practice.exe
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\Test2 Practice.deps.json
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\Test2 Practice.runtimeconfig.json
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\Test2 Practice.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\ref\Test2 Practice.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\bin\Debug\net6.0-windows\Test2 Practice.pdb
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.csproj.AssemblyReference.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice_MarkupCompile.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice_MarkupCompile.lref
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.g.resources
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.AssemblyInfoInputs.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.AssemblyInfo.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\ref\Test2 Practice.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.pdb
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Test2 Practice\Test2 Practice\obj\Debug\net6.0-windows\Test2 Practice.genruntimeconfig.cache

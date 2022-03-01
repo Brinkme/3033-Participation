@@ -56,16 +56,28 @@ namespace Test2_Practice
             {
                 MessageBox.Show("Sorry, please enter something valid for Street Name");
             }
-            double streetnum = 0;
-            if (double.TryParse(txtboxStreetNum.Text, out streetnum) == false)
+            int streetnum = 0;
+            if (int.TryParse(txtboxStreetNum.Text, out streetnum) == false)
             {
                 MessageBox.Show("Sorry, please enter something valid for Street Number");
             }
-            double zip = 0;
-            if (double.TryParse(txtboxZip.Text, out zip) == false)
+            int zip = 0;
+            if (int.TryParse(txtboxZip.Text, out zip) == false)
             {
                 MessageBox.Show("Sorry, please enter something valid for Zip Code");
             }
+
+            Student stu = new Student();
+
+            stu.FirstName = txtboxFName.Text;
+            stu.LastName = txtboxLName.Text;
+            stu.GPA = Convert.ToDouble(txtboxGPA.Text);
+            stu.Major = txtboxMajor.Text;
+
+            stu.SetAddress(streetnum, txtboxStreetName.Text, txtboxState.Text, txtboxCity.Text, zip);
+            lstBox.Items.Add(stu);
+
+
         }
     }
 }

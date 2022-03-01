@@ -8,26 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\brin0028\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Matthew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brin0028\\source\\repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\Reading in File.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew\\Source\\Repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\Reading in File.csproj",
       "projectName": "Reading in File",
-      "projectPath": "C:\\Users\\brin0028\\source\\repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\Reading in File.csproj",
-      "packagesPath": "C:\\Users\\brin0028\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brin0028\\source\\repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\obj\\",
+      "projectPath": "C:\\Users\\Matthew\\Source\\Repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\Reading in File.csproj",
+      "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matthew\\Source\\Repos\\Brinkme\\3033-Participation\\Reading in File\\Reading in File\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\brin0028\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -21,7 +21,7 @@ namespace CSV2
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<SaleData> saledata = new List<SaleData>();
+        List<SaleData> thingy = new List<SaleData>();
         public MainWindow()
         {
             InitializeComponent();
@@ -30,10 +30,11 @@ namespace CSV2
             for (int i = 1; i < linesoffile.Length; i++)
             {
                 string[] pieces = linesoffile[i].Split(',');
+
                 SaleData saledate = new SaleData();
 
                 saledate.Product = pieces[1];
-                saledate.Price = Convert.ToDouble(pieces[2]);
+                saledate.Price = Convert.ToDouble( pieces[2]);
                 saledate.Payment_Type = pieces[3];
                 saledate.Name = pieces[4];
                 saledate.City = pieces[5];
@@ -45,12 +46,16 @@ namespace CSV2
                 saledate.Longitude = pieces[11];
 
                 lstBox.Items.Add(saledate);
+
                 if (cmbBox.Items.Contains(saledate.Payment_Type) == false)
                 {
+
                 cmbBox.Items.Add(saledate.Payment_Type);
                 }
-                saledata.Add(saledate);
+
+                thingy.Add(saledate);
             }
+            
 
         }
 
@@ -59,7 +64,7 @@ namespace CSV2
             string thing = cmbBox.SelectedItem.ToString();
             lstBox.Items.Clear();
 
-            foreach (var item in saledata)
+            foreach (var item in thingy)
             {
                 if (item.Payment_Type == thing)
                 {

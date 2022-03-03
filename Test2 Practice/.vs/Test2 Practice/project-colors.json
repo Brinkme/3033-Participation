@@ -10,7 +10,12 @@
       "ProjectGuid": "33b7f14c-45c7-480d-ba3d-7ca52b94ebda",
       "DisplayName": "Graduation Example",
       "ColorIndex": 1
+    },
+    "fb9780b8-be7c-45cc-8d6e-dd3bd6484d42": {
+      "ProjectGuid": "fb9780b8-be7c-45cc-8d6e-dd3bd6484d42",
+      "DisplayName": "CSV",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

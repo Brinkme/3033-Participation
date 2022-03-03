@@ -50,7 +50,7 @@ namespace CSV
 
                 if (cmbBox.Items.Contains(saleData.Payment_Type) == false)
                 {
-                cmbBox.Items.Add(saleData.Payment_Type);
+                     cmbBox.Items.Add(saleData.Payment_Type);
                 }
 
                 lstBox.Items.Add(saleData);

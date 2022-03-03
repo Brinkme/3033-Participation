@@ -25,32 +25,33 @@ namespace CSV2
         public MainWindow()
         {
             InitializeComponent();
-            string[] linesoffile = File.ReadAllLines("SalesJan2009.csv");
 
+            string[] linesoffile = File.ReadAllLines("SalesJan2009.csv");
             for (int i = 1; i < linesoffile.Length; i++)
             {
-                SaleData data = new SaleData();
                 string[] pieces = linesoffile[i].Split(',');
-                data.Product = pieces[1];
-                data.Price = Convert.ToDouble(pieces[2]);
-                data.Payment_Type = pieces[3];
-                data.Name = pieces[4];
-                data.City = pieces[5];
-                data.Country = pieces[6];
-                data.State = pieces[7];
-                data.Account_Created = pieces[8];
-                data.Last_Login = pieces[9];
-                data.Latitude = pieces[10];
-                data.Longitude = pieces[11];
+                SaleData saledate = new SaleData();
 
-                lstBox.Items.Add(data);
-                if (cmbBox.Items.Contains(data.Payment_Type) == false)
+                saledate.Product = pieces[1];
+                saledate.Price = Convert.ToDouble(pieces[2]);
+                saledate.Payment_Type = pieces[3];
+                saledate.Name = pieces[4];
+                saledate.City = pieces[5];
+                saledate.State = pieces[6];
+                saledate.Country = pieces[7];
+                saledate.Account_Created = pieces[8];
+                saledate.Last_Login = pieces[9];
+                saledate.Latitude = pieces[10];
+                saledate.Longitude = pieces[11];
+
+                lstBox.Items.Add(saledate);
+                if (cmbBox.Items.Contains(saledate.Payment_Type) == false)
                 {
-                cmbBox.Items.Add(data.Payment_Type);
+                cmbBox.Items.Add(saledate.Payment_Type);
                 }
-                saledata.Add(data);
-                
+                saledata.Add(saledate);
             }
+
         }
 
         private void cmbBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -60,11 +61,13 @@ namespace CSV2
 
             foreach (var item in saledata)
             {
-                if (thing == item.Payment_Type)
+                if (item.Payment_Type == thing)
                 {
                     lstBox.Items.Add(item);
                 }
             }
+
+
         }
     }
 }

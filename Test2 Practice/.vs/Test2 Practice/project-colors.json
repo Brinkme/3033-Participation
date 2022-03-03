@@ -15,7 +15,12 @@
       "ProjectGuid": "fb9780b8-be7c-45cc-8d6e-dd3bd6484d42",
       "DisplayName": "CSV",
       "ColorIndex": 2
+    },
+    "42c548cb-08c7-4e38-b626-9ce6e5c4489d": {
+      "ProjectGuid": "42c548cb-08c7-4e38-b626-9ce6e5c4489d",
+      "DisplayName": "CSV2",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

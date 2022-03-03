@@ -5,7 +5,12 @@
       "ProjectGuid": "9e99bb5f-4cb2-403c-a763-7a66e1574b04",
       "DisplayName": "Test2 Practice",
       "ColorIndex": 0
+    },
+    "33b7f14c-45c7-480d-ba3d-7ca52b94ebda": {
+      "ProjectGuid": "33b7f14c-45c7-480d-ba3d-7ca52b94ebda",
+      "DisplayName": "Graduation Example",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

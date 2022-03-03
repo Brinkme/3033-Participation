@@ -27,53 +27,80 @@ namespace Graduation_Example
 
         private void btnDone_Click(object sender, RoutedEventArgs e)
         {
+            Student student = new Student();
+
+
             if (string.IsNullOrWhiteSpace(txtboxFName.Text) == true)
             {
-                MessageBox.Show("Sorry, please enter a First Name");
+                MessageBox.Show("Sorry please enter a First Name");
             }
+            else
+            {
+            student.FirstName = txtboxFName.Text;
+
+
+            }
+
+
             if (string.IsNullOrWhiteSpace(txtboxLName.Text) == true)
             {
-                MessageBox.Show("Sorry, please enter a Last Name");
+                MessageBox.Show("Sorry please enter a Last Name");
             }
+            else
+            {
+                student.LastName = txtboxLName.Text;
+                txtboxLName.Clear();
+            }
+
+
             if (string.IsNullOrWhiteSpace(txtboxMajor.Text) == true)
             {
-                MessageBox.Show("Sorry, please enter a Major");
+                MessageBox.Show("Sorry please enter a Major");
             }
-            double gpa;
-            if (double.TryParse(txtboxGPA.Text, out gpa) == false)
-            {
-                MessageBox.Show("Sorry, please enter a GPA");
-            }
-            if (string.IsNullOrWhiteSpace(txtboxCity.Text) == true)
-            {
-                MessageBox.Show("Sorry, please enter a City");
-            }
+            student.Major = txtboxMajor.Text;
+
+
             if (string.IsNullOrWhiteSpace(txtboxState.Text) == true)
             {
-                MessageBox.Show("Sorry, please enter a State");
+                MessageBox.Show("Sorry please enter a State");
             }
+
+
             if (string.IsNullOrWhiteSpace(txtboxStreetName.Text) == true)
             {
-                MessageBox.Show("Sorry, please enter a Street Name");
+                MessageBox.Show("Sorry please enter a Street Name");
             }
-            int streetnum;
-            if (int.TryParse(txtboxStreetNum.Text,out streetnum) == false)
+
+            double gpa;
+            if (double.TryParse(txtboxGPA.Text,out gpa) == false)
             {
-                MessageBox.Show("Sorry, please enter a Street Number");
+                MessageBox.Show("Sorry please enter a GPA");
             }
+            student.GPA = gpa;
+
             int zip;
             if (int.TryParse(txtboxZip.Text, out zip) == false)
             {
-                MessageBox.Show("Sorry, please enter a Zipcode");
+                MessageBox.Show("Sorry please enter a Zipcode");
             }
 
-            Student stu = new Student();
-            stu.GPA = gpa;
-            stu.LastName = txtboxLName.Text;
-            stu.FirstName = txtboxFName.Text;
-            stu.Major = txtboxMajor.Text;
+            int streetnum;
+            if (int.TryParse(txtboxStreetNum.Text,out streetnum) == false)
+            {
+                MessageBox.Show("Sorry please enter a Street Number");
+            }
 
-            lstBox.Items.Add(stu);
+
+            lstBox.Items.Add(student);
+            txtboxCity.Clear();
+            txtboxFName.Clear();
+            txtboxGPA.Clear();
+            txtboxLName.Clear();
+            txtboxMajor.Clear();
+            txtboxState.Clear();
+            txtboxStreetName.Clear();
+            txtboxStreetNum.Clear();
+            txtboxZip.Clear();
         }
     }
 }

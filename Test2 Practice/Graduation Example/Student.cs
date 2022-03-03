@@ -22,6 +22,7 @@ namespace Graduation_Example
             GPA = 0;
             Address = new Address();
         }
+
         public Student(string firstName, string lastName, string major, double gpa)
         {
             FirstName = firstName;
@@ -31,31 +32,33 @@ namespace Graduation_Example
             Address = new Address();
         }
 
-        public string CalculateDistinction()
+        public string Distinction()
         {
-            string Dintinct;
-            if (GPA >= 3.80)
+            string distinct;
+            if (GPA >=3.80)
             {
-                Dintinct = "Summa Cum Laude";
+                distinct = "SUMMA CUM LAUDE";
             }
-            else if (GPA >= 3.60)
+            else if (GPA>= 3.60)
             {
-                Dintinct = "Magna Cum Laude";
+                distinct = "MAGNA CUM LAUDE";
             }
             else if (GPA >= 3.40)
             {
-                Dintinct = "Cum Laude";
+                distinct = "CUM LAUDE";
             }
             else
             {
-                Dintinct = "";
+                distinct = "";
             }
-            return Dintinct;
+
+            return distinct;
         }
-        public void SetAddress(int streetNumber, string streetName, string state, string city, int zipcode)
+
+        public void SetAddress(int streetNumber, string StreetName, string state, string city, int zipcode)
         {
             Address.StreetNumber = streetNumber;
-            Address.StreetName = streetName;
+            Address.StreetName = StreetName;
             Address.City = city;
             Address.Zipcode = zipcode;
             Address.State = state;
@@ -63,7 +66,7 @@ namespace Graduation_Example
 
         public override string ToString()
         {
-            return $"{FirstName} {LastName}, {Major}, {CalculateDistinction()}";
+            return $"{FirstName} {LastName}, {Major}, {Distinction()}";
         }
     }
 }

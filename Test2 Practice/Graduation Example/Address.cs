@@ -8,7 +8,7 @@ namespace Graduation_Example
 {
     public class Address
     {
-        public int StreetNumber { get; set; }
+       public int StreetNumber { get; set; }
         public string StreetName { get; set; }
         public string State { get; set; }
         public string City { get; set; }
@@ -23,13 +23,13 @@ namespace Graduation_Example
             Zipcode = 0;
         }
 
-        public Address(int streetnumber, string streetname, string state, string city, int zip)
+        public Address(int streetnumber, string streetname, string state, string city, int zipcode)
         {
+            StreetNumber = streetnumber;
             StreetName = streetname;
             State = state;
             City = city;
-            Zipcode = zip;
-            StreetNumber = streetnumber;
+            Zipcode = zipcode;
         }
     }
 }

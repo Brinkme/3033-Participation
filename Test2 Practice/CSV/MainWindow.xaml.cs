@@ -21,6 +21,7 @@ namespace CSV
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<SaleData> data = new List<SaleData>();
         public MainWindow()
         {
             InitializeComponent();
@@ -53,15 +54,20 @@ namespace CSV
                 }
 
                 lstBox.Items.Add(saleData);
+                data.Add(saleData);
             }
         }
 
         private void cmbBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string thing = cmbBox.SelectedItem.ToString();
-            if (cmbBox.SelectedItem == thing )
+            lstBox.Items.Clear();
+            foreach (var item in data)
             {
-                
+                if (item.Payment_Type == thing)
+                {
+                    lstBox.Items.Add(item);
+                }
             }
         }
     }

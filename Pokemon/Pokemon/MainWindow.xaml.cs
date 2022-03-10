@@ -65,20 +65,32 @@ namespace Pokemon
 
         private void btnChange_Click(object sender, RoutedEventArgs e)
         {
+            Results selected = (Results)cmbBoxPokemon.SelectedItem;
+            string json;
+            string url = selected.url;
 
-            string satus = btnChange.Content.ToString().ToLower();
-            switch (satus)
+            using (var client = new HttpClient())
             {
-                case "show back":
-                    imgSource.Source = new BitmapImage(new Uri(poke.sprites.back_default));
-                    showBack = false;
-                    btnChange.Content = "Show Front";
-                    break;
-                case "show front":
-                    imgSource.Source = new BitmapImage(new Uri(poke.sprites.front_default));
-                    btnChange.Content = "Show Back";
-                    showFront = false;
-                    break ;
+                json = client.GetStringAsync(url).Result;
+                var api = JsonConvert.DeserializeObject<Pokemonthing>(json);
+
+                imgSource.Source = new BitmapImage(new Uri(api.sprites.front_default));
+                showFront = false;
+
+                string satus = btnChange.Content.ToString().ToLower();
+                switch (satus)
+                {
+                    case "show back":
+                        imgSource.Source = new BitmapImage(new Uri(api.sprites.back_default));
+                        showBack = false;
+                        btnChange.Content = "Show Front";
+                        break;
+                    case "show front":
+                        imgSource.Source = new BitmapImage(new Uri(api.sprites.front_default));
+                        btnChange.Content = "Show Back";
+                        showFront = false;
+                        break ;
+                }
             }
         }
     }

@@ -10,6 +10,7 @@
         <ComboBox x:Name="cmbBoxPokemon" HorizontalAlignment="Left" Margin="608,88,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
         <Image x:Name="imgSource" HorizontalAlignment="Left" Height="166" Margin="67,31,0,0" VerticalAlignment="Top" Width="151"/>
         <ListBox x:Name="lstBoxPokemon" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,233,0,0"/>
+        <Button x:Name="btnChange" Content="Show Back" HorizontalAlignment="Left" Margin="312,31,0,0" VerticalAlignment="Top" Height="31" Width="131" Click="btnChange_Click"/>
 
     </Grid>
 </Window>

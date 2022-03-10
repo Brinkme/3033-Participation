@@ -23,6 +23,7 @@ namespace Pokemon
     public partial class MainWindow : Window
     {
         private bool showFront;
+        private bool showBack;
         public MainWindow()
         {
             InitializeComponent();
@@ -59,6 +60,25 @@ namespace Pokemon
                 showFront = false;
 
                 lstBoxPokemon.Items.Add(api.ToString());
+            }
+        }
+
+        private void btnChange_Click(object sender, RoutedEventArgs e)
+        {
+
+            string satus = btnChange.Content.ToString().ToLower();
+            switch (satus)
+            {
+                case "show back":
+                    imgSource.Source = new BitmapImage(new Uri(poke.sprites.back_default));
+                    showBack = false;
+                    btnChange.Content = "Show Front";
+                    break;
+                case "show front":
+                    imgSource.Source = new BitmapImage(new Uri(poke.sprites.front_default));
+                    btnChange.Content = "Show Back";
+                    showFront = false;
+                    break ;
             }
         }
     }

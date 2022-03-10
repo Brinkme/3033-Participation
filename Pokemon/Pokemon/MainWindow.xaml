@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:Pokemon"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ComboBox x:Name="cmbBoxPokemon" HorizontalAlignment="Left" Margin="608,88,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
-        <Image x:Name="imgSource" HorizontalAlignment="Left" Height="166" Margin="67,31,0,0" VerticalAlignment="Top" Width="151"/>
-        <ListBox x:Name="lstBoxPokemon" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,233,0,0"/>
-        <Button x:Name="btnChange" Content="Show Back" HorizontalAlignment="Left" Margin="312,31,0,0" VerticalAlignment="Top" Height="31" Width="131" Click="btnChange_Click"/>
+    <Grid OpacityMask="Black">
+        <Grid.Background>
+            <ImageBrush ImageSource="/png-clipart-poke-ball-open-wv-computer-wallpaper-desktop-wallpaper.png" Stretch="Fill"/>
+        </Grid.Background>
+        <ComboBox x:Name="cmbBoxPokemon" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Image x:Name="imgSource" HorizontalAlignment="Left" Height="349" Margin="407,40,0,0" VerticalAlignment="Top" Width="541"/>
+        <Button x:Name="btnChange" Content="Show Back" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Height="30" Width="120" Click="btnChange_Click"/>
 
     </Grid>
 </Window>

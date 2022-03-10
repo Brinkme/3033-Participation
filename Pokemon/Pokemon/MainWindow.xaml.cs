@@ -46,7 +46,6 @@ namespace Pokemon
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            lstBoxPokemon.Items.Clear();
             Results  selected = (Results)cmbBoxPokemon.SelectedItem;
             string json;
             string url = selected.url;
@@ -59,7 +58,7 @@ namespace Pokemon
                 imgSource.Source = new BitmapImage(new Uri(api.sprites.front_default));
                 showFront = false;
 
-                lstBoxPokemon.Items.Add(api.ToString());
+                MessageBox.Show((api.ToString()));
             }
         }
 

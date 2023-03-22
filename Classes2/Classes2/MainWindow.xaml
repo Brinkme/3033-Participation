@@ -20,6 +20,7 @@
         <TextBox x:Name="txtBoxURL" HorizontalAlignment="Left" Margin="387,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnAdd" Content="Add Here" HorizontalAlignment="Left" Margin="92,312,0,0" VerticalAlignment="Top" Height="33" Width="162" Click="btnAdd_Click"/>
         <ListBox x:Name="lstBoxAdd" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="480,295,24,20" MouseDoubleClick="lstBoxAdd_MouseDoubleClick"/>
+        <Image x:Name="imgThing" HorizontalAlignment="Left" Height="100" Margin="613,106,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

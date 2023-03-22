@@ -1,0 +1,19 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstVow" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="511,242,0,0" Background="White"/>
+        <ListBox x:Name="lstCon" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="22,252,442,0"/>
+        <Label x:Name="lblCon" Content="Here are you con" HorizontalAlignment="Left" Margin="121,226,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblVow" Content="Here are your Vow" HorizontalAlignment="Left" Margin="637,216,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWord" HorizontalAlignment="Left" Margin="51,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Enter Word" HorizontalAlignment="Left" Margin="75,45,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnClick" Content="Click When Done" HorizontalAlignment="Left" Margin="511,68,0,0" VerticalAlignment="Top" Height="63" Width="127" Click="btnClick_Click"/>
+
+    </Grid>
+</Window>

@@ -33,19 +33,12 @@ namespace JSON_File
 
             foreach (Owner owner in results)
             {
-                Owner o = new Owner();
-                o.FirstName = owner.FirstName;
-                o.LastName = owner.LastName;
-                o.Model = owner.Model;
-                o.Year = owner.Year;
-                o.Color = owner.Color;
-
-                JasondDerulo.Add(o);
-
                 if (cmbColor.Items.Contains(owner.Color) == false)
                 {
                     cmbColor.Items.Add(owner.Color);
                 }
+
+                JasondDerulo.Add(owner);
             }
         }
 
@@ -59,7 +52,10 @@ namespace JSON_File
                 {
                     lstBox1.Items.Add(item);
                 }
+                
             }
+
+            MessageBox.Show(lstBox1.Items.Count.ToString());
 
 
         }

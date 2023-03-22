@@ -2,7 +2,6 @@ C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\ChuckNorris.deps.json
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\ChuckNorris.runtimeconfig.json
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\ChuckNorris.dll
-C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\ref\ChuckNorris.dll
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\ChuckNorris.pdb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\obj\Debug\net6.0-windows\ChuckNorris.csproj.AssemblyReference.cache
@@ -21,3 +20,4 @@ C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\obj\Debug\net6.0-windows\ref\ChuckNorris.dll
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\obj\Debug\net6.0-windows\ChuckNorris.pdb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\obj\Debug\net6.0-windows\ChuckNorris.genruntimeconfig.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\ChuckNorris\ChuckNorris\obj\Debug\net6.0-windows\refint\ChuckNorris.dll

@@ -30,7 +30,7 @@ namespace Classes2
         }
         public override string ToString()
         {
-            string o = Manufactuer + "-" + Name;
+            string o = Manufactuer + "-" + Name + " " + Price;
             return o;
         }
     }

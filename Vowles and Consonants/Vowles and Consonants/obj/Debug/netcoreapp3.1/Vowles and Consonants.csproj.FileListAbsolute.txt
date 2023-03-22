@@ -38,3 +38,23 @@ C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Vowles and Consonants\
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.dll
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.pdb
 C:\Users\brin0028\source\repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.genruntimeconfig.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.exe
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.deps.json
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.runtimeconfig.json
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.runtimeconfig.dev.json
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\bin\Debug\netcoreapp3.1\Vowles and Consonants.pdb
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.csproj.AssemblyReference.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants_MarkupCompile.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants_MarkupCompile.lref
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.g.resources
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.AssemblyInfoInputs.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.AssemblyInfo.cs
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.pdb
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Vowles and Consonants\Vowles and Consonants\obj\Debug\netcoreapp3.1\Vowles and Consonants.genruntimeconfig.cache

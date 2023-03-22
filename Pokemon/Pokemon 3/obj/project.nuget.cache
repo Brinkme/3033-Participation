@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D0wjkunSbISQKw42wfmgG6iEAZS/T5vIxLvz7VoqYzTEBKCah0d+x27nlEDPC+7vpA2ID0vwPa/xEEAj4/d/0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matthew\\Source\\Repos\\Brinkme\\3033-Participation\\Pokemon\\Pokemon 3\\Pokemon 3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matthew\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

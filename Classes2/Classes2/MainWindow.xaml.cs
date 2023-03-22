@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Classes2
 {
@@ -73,13 +75,15 @@ namespace Classes2
             lstBoxAdd.Items.Add(thing);
         }
 
+
         private void lstBoxAdd_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Toy selectedToy = (Toy)lstBoxAdd.SelectedItem;
 
-            
+            var uri = new Uri(selectedToy.Image);
+            var img = new BitmapImage(uri);
 
-            //MessageBox.Show();
+            imgThing.Source = img;
         }
     }
 }

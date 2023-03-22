@@ -2,9 +2,9 @@ C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Deb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\Pokemon.deps.json
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\Pokemon.runtimeconfig.json
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\Pokemon.dll
-C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\ref\Pokemon.dll
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\Pokemon.pdb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.csproj.AssemblyReference.cache
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon_MarkupCompile.cache
@@ -17,7 +17,7 @@ C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Deb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.csproj.CoreCompileInputs.cache
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.csproj.CopyComplete
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.dll
-C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\ref\Pokemon.dll
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\refint\Pokemon.dll
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.pdb
 C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.genruntimeconfig.cache
-C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Matthew\Source\Repos\Brinkme\3033-Participation\Pokemon\Pokemon\obj\Debug\net6.0-windows\ref\Pokemon.dll

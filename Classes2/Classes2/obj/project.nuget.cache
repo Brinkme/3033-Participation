@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ii6Hdl+fUj2JcmVY1oHXK1QJ6JHbHJ9pdJ4hGIWkdLkT3P5xgQDel2F1MQu2cBBcO9wre9zcl9HTozg11RIuiQ==",
+  "dgSpecHash": "BmZuicYjf+WcNAy0AZZxbrZTuogWoyDZR46k+4NESFAqrk/IF1k9IcNbcsjERO2L8cpYl3IiE9Tcy0pMKO9pkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brin0028\\source\\repos\\Brinkme\\3033-Participation\\Classes2\\Classes2\\Classes2.csproj",
+  "projectFilePath": "C:\\Users\\Matthew\\Source\\Repos\\Brinkme\\3033-Participation\\Classes2\\Classes2\\Classes2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\brin0028\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Matthew\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

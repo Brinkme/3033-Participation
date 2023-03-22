@@ -16,5 +16,6 @@
         <Label x:Name="lblColor" Content="Choose a color:" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Background="#FFFF0069"/>
         <ComboBox x:Name="cmbColor" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbColor_SelectionChanged"/>
         <ListBox x:Name="lstBox1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="435,23,62,193"/>
+        <Label x:Name="lblCount" Content="Label" HorizontalAlignment="Left" Margin="451,271,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

@@ -34,7 +34,7 @@ namespace Pokemon
 
         public override string ToString()
         {
-            return $"Their id is {id}, height is {height}, weight is {weight}";
+            return $"Their id is {id}, height is {height}, weight is {weight} sucker";
         }
     }
 

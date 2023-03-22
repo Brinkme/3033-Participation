@@ -29,7 +29,7 @@ namespace ChuckNorris
             cmbBoxCat.Items.Add("All");
             cmbBoxCat.SelectedIndex = 0;
 
-            string URL = $"https://api.chucknorris.io/jokes/categories";
+            string URL = $"https://thronesapi.com/api/v2/Characters";
 
             string json;
 
@@ -48,35 +48,35 @@ namespace ChuckNorris
 
         private void btnClick_Click(object sender, RoutedEventArgs e)
         {
-            if (cmbBoxCat.SelectedIndex == 0)
-            {
-                string URL = "https://api.chucknorris.io/jokes/random";
-                string json;
+            //if (cmbBoxCat.SelectedIndex == 0)
+            //{
+            //    string URL = "https://api.chucknorris.io/jokes/random";
+            //    string json;
 
-                using (var client = new HttpClient())
-                {
-                    json = client.GetStringAsync(URL).Result;
+            //    using (var client = new HttpClient())
+            //    {
+            //        json = client.GetStringAsync(URL).Result;
 
-                    Chuck api1 = JsonConvert.DeserializeObject<Chuck>(json);
-                    MessageBox.Show(api1.value);
-                }
+            //        Chuck api1 = JsonConvert.DeserializeObject<Chuck>(json);
+            //        MessageBox.Show(api1.value);
+            //    }
 
-            }
-            else
-            {
-                string url = $"https://api.chucknorris.io/jokes/random?category={cmbBoxCat.SelectedItem}";
-                string JSON;
+            //}
+            //else
+            //{
+            //    string url = $"https://api.chucknorris.io/jokes/random?category={cmbBoxCat.SelectedItem}";
+            //    string JSON;
 
-                using (var client = new HttpClient())
-                {
-                    JSON = client.GetStringAsync(url).Result;
+            //    using (var client = new HttpClient())
+            //    {
+            //        JSON = client.GetStringAsync(url).Result;
 
-                    Chuck api2 = JsonConvert.DeserializeObject<Chuck>(JSON);
+            //        Chuck api2 = JsonConvert.DeserializeObject<Chuck>(JSON);
 
-                    MessageBox.Show(api2.value);
-                }
+            //        MessageBox.Show(api2.value);
+            //    }
 
-            }
+            //}
 
         }
     }
